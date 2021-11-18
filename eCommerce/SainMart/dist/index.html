@@ -3,12 +3,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>SainMart</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="text-primary">hello world</h1>
-    </div>
+    <header class="font-poppins">
+        <!--Header Top-->
+        <div class="bg-gray-100">
+            <div class="py-3 container  flex justify-between text-xs ">
+                <h1>Wlecome to SainMart Store!</h1>
+                <div class="flex items-center justify-center space-x-6">
+
+                    <div class="flex items-center cursor-pointer relative group">
+                        <a href="">USD</a>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                          </svg>
+                        </span>
+                        
+                        <div class="absolute w-full left-0 top-full bg-white shadow-md  divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible ">
+                            <a href="#" class="flex items-center  px-2 py-2 hover:bg-gray-100 transition" >USD</a>
+                            <a href="#" class="flex items-center  px-2 py-2 hover:bg-gray-100 transition">EUR</a>
+                        </div>
+                    </div>
+
+                    <!--Language-->
+                    <div class="flex items-center cursor-pointer relative group border-2 border-gray-300 border-dashed">
+                        <img class="m-1" src="./assets/images/flags/eng.png" alt="">
+                        <a href="">
+                            ENG</a>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                          </svg>
+                        </span>
+                        
+                        <div class="absolute w-full left-0 top-full bg-white shadow-md  divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible ">
+                            <a href="#" class="flex items-center  px-2 py-2 hover:bg-gray-100 transition" >
+                                <img class="m-1" src="./assets/images/flags/eng.png" alt="">
+                                ENG</a>
+                            <a href="#" class="flex items-center  px-2 py-2 hover:bg-gray-100 transition">
+                                <img class="m-1" src="./assets/images/flags/fra.png" alt="">
+                                FRA</a>
+                        </div>
+                    </div>
+
+                    <div class="border-l border-solid border-header-divider h-6"></div>
+                    <!--Language End-->
+                    <div>Blog</div>
+                    <div>Contact Us</div>
+                    <!--Account-->
+                    <div class="flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                          </svg>
+                        <span>Sing in <span class="text-header-divider">/</span> Register</span>
+                    </div>
+                    <!--Account End-->
+                </div>
+            </div>
+        </div>
+        <!-- Header Top End -->
+
+        <!-- Header Middle -->
+        <div></div>
+        <!-- Header Middle End  -->
+
+        <!-- Header Bottom -->
+        <div></div>
+        <!-- Header Bottom End -->
+
+    </header>
+
 </body>
 </html>
