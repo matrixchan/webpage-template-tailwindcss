@@ -20,7 +20,8 @@ module.exports = {
       colors:{
         'primary': '#336699',
         'header-divider':'#ccc',
-        'header-mid-bg':'#fff'
+        'header-mid-bg':'#fff',
+        'header-bottom-bg':'#f1f1f1',
       }
     },
   },
