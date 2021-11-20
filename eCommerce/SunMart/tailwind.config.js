@@ -2,15 +2,15 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    screen:{
+    screens:{
       sm:'576px',
       md: '768px',
       lg: '992px',
-      xl: '1200px'
+      xl: '1280px'
     },
     container:{
       center:true,
-      padding:'1rem'
+      padding:'1rem',
     },
     extend: {
       fontFamily:{
